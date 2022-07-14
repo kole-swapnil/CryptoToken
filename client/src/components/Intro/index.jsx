@@ -1,15 +1,13 @@
-import Welcome from "./Welcome";
-import Tree from "./Tree";
-import Desc from "./Desc";
+import {Component} from 'react';
 
-function Intro() {
-  return (
-    <>
-      <Welcome />
-      <Tree />
-      <Desc />
-    </>
-  );
+class Intro extends Component {
+  render() {
+    return (
+      <>
+        <h3>Welcome to Super Token Test</h3>
+      </>
+    );
+  }
 }
 
 export default Intro;
